@@ -11,6 +11,7 @@ const Panel = () => {
                 <li className="nav-item" role="presentation">
                     <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Ordenes</button>
                 </li>
+                <button type="button" className="btn btn-danger ms-2">Cerrar Cesion</button>
             </ul>
             <div className="tab-content" id="myTabContent">
                 <div className="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex="0">

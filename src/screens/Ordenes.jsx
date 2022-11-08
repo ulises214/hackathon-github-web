@@ -2,7 +2,11 @@ import React from 'react'
 
 const Ordenes = () => {
     return (
-        <div>Ordenes</div>
+        <>
+            <div className="container-fluid">
+                <h1>Ordenes</h1>
+            </div>
+        </>
     )
 }
 
